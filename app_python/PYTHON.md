@@ -21,7 +21,7 @@ Application which shows current Moscow Time. Time is updated on page load
 - Included tests
 - Added .gitignore
 - Used virtualenv for local development
-- Add Django-related files to .gitignore
+- Add Django-related files, .venv, .env to .gitignore
 
 ## Run app
 
