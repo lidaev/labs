@@ -1,13 +1,19 @@
 # Python web app
 
-Application which shows current Moscow Time. Time is updated on page load
 [![Django CI](https://github.com/lidaev/labs/actions/workflows/django.yml/badge.svg?branch=lab3)](https://github.com/lidaev/labs/actions/workflows/django.yml)
+
+Application which shows current Moscow Time. Time is updated on page load
 
 ## Run Python app
 
-Add .env file with `SECRET_KEY=YOUR_SECRET_KEY` variable
+Add .env file with
+
+`SECRET_KEY=YOUR_SECRET_KEY`
+
 Run
+
 `docker build --tag lab2 .`
+
 `docker run --env-file=.env -p 8000:8000 lab2`
 
 Or you can also check out DockerHUB
