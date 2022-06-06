@@ -7,6 +7,14 @@ on:
     branches: [master]
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build docker
+        run: docker build . --tag build_django_app
+
   test:
     runs-on: ubuntu-latest
 
