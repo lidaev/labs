@@ -1,0 +1,8 @@
+- name: Pull image from registry
+  shell: docker pull lidiyadockerid/devops-course:lab2
+
+- name: Mock .env value
+  shell: echo SECRET_KEY=1 >> .env
+
+- name: Run image
+  shell: docker run --env-file=.env -p 8000:8000 lidiyadockerid/devops-course:lab2
