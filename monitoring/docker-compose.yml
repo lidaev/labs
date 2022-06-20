@@ -40,7 +40,6 @@ services:
     expose: 
       - 3100
     restart: unless-stopped
-    command: -config.file=/etc/loki/local-config.yaml
     networks:
       - logging
   
