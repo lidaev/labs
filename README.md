@@ -23,6 +23,8 @@ Add necessary information to .env file, for example:
 
 `docker-compose up`
 
+If you want to run monitoring metrics, then you have to add more environmental variables
+
 Or you can also check out DockerHUB
 `docker pull lidiyadockerid/devops-course:lab2`
 
