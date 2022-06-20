@@ -16,6 +16,13 @@ Run
 
 `docker run --env-file=.env -p 8000:8000 lab2`
 
+Using docker-compose
+Add necessary information to .env file, for example:
+
+`echo SECRET_KEY=1 >> .env`
+
+`docker-compose up`
+
 Or you can also check out DockerHUB
 `docker pull lidiyadockerid/devops-course:lab2`
 
