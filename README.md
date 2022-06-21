@@ -20,6 +20,7 @@ Using docker-compose
 Add necessary information to .env file, for example:
 
 `echo SECRET_KEY=1 >> .env`
+`echo LOG_FILENAME=/var/logs/app_python.log >> .env`
 
 `docker-compose up`
 
