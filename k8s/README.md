@@ -9,3 +9,7 @@
 ![minikube](../screenshots/svc.png)
 
 ![minikube](../screenshots/minukube.png)
+
+![dashboard](../screenshots/dashboard.png)
+
+![dashboard](../screenshots/web.png)
