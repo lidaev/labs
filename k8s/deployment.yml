@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: lidiyadockerid/devops-course:lab9
+          image: lidiyadockerid/devops-course:latest
           ports:
             - containerPort: 8000

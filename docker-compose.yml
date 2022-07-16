@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    image: lidiyadockerid/devops-course:lab12
+    image: lidiyadockerid/devops-course:latest
     container_name: logging-app
     ports:
       - "8000:8000"
