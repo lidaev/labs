@@ -39,6 +39,8 @@ spec:
                 secretKeyRef:
                   name: credentials
                   key: secretkey
+            - name: ENV_FILE
+              value: "Hello from the environment"
           ports:
             - name: http
               containerPort: 8000
