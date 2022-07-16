@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  web:
+    image: lab12:latest
+    container_name: logging-app
+    ports:
+      - "8000:8000"
+    expose:
+      - 8000
+    environment:
+    - SECRET_KEY="${SECRET_KEY}"
+    - LOG_FILENAME="${LOG_FILENAME}"
+    volumes:
+      - ${PWD}/log:/var/log
+      - ${PWD}/timeloger.txt:/etc/files
+ 
