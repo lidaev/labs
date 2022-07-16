@@ -2,7 +2,7 @@
 
 [![Django CI](https://github.com/lidaev/labs/actions/workflows/django.yml/badge.svg?branch=lab3)](https://github.com/lidaev/labs/actions/workflows/django.yml)
 
-Application which shows current Moscow Time. Time is updated on page load
+Application which logs the time when user accessed the application. On /visits endpoint it shows current Moscow Time. Time is updated on page load
 
 ## Run Python app
 
